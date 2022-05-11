@@ -1,6 +1,34 @@
 const texto = document.querySelector(".text");
 const mensaje =  document.querySelector(".text-area");
 
+let boton = document.querySelector("#reproductor")
+
+    boton.addEventListener("click", () => {
+      let etiquetaAudio = document.createElement("audio")
+      etiquetaAudio.setAttribute("src", "../sonido.mp3")
+      etiquetaAudio.play();
+    });
+    
+let boton1 = document.querySelector("#reproductor1")
+
+    boton1.addEventListener("click", () => {
+      let etiquetaAudio = document.createElement("audio")
+      etiquetaAudio.setAttribute("src", "../sonido.mp3")
+      etiquetaAudio.play();
+    });
+let boton2 = document.querySelector("#reproductor2")
+
+    boton2.addEventListener("click", () => {
+      let etiquetaAudio = document.createElement("audio")
+      etiquetaAudio.setAttribute("src", "../sonido.mp3")
+      etiquetaAudio.play();
+    });
+
+function imagen() {
+    let clickImagen = document.querySelector("#input");
+    alert("😊 Este es un encriptador de texto desarrollado para que puedas esconder cualquier mensaje a tu gusto ✨💖")
+}
+
 function copy() {
     let copyText = document.querySelector("#input");
     copyText.select();
