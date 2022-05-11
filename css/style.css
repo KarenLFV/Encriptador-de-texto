@@ -1,0 +1,143 @@
+body {
+    background: url(../imagenes/fondo.jpg);
+}
+* {
+    margin: 0;
+    font-size: 25px;
+    line-height: 120%;
+    font-family: 'Merriweather', serif;
+
+}
+/* Encabezado */
+.vector {
+    position: static;
+    margin: 35px 30px 0px 0px;
+}
+#titulo {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 10px 5px 8px palevioletred;
+}
+.titulo2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Parte Central */
+main {
+    display: flex;
+    flex-direction: row;
+}
+.text {
+    margin-top: 50px;
+    margin: 30px;
+    padding: 10px;
+    border-color: palevioletred;
+    border-radius: 10px;
+}
+.text:hover {
+    box-shadow: 0 8px 16px 0 black;
+}
+.aviso {
+    margin: 10px 0px 10px 30px;
+    font-weight: bold;
+}
+/* Parte Lateral */
+aside {
+    position: absolute;
+    width: 600px;
+    height: 530px;
+    top: 100px;
+    right: 60px;
+    background-color: white;
+    border-radius: 10px;
+}
+.mensaje1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    align-items: center;   
+}
+.seccion {
+    width: 80%;
+    height: 100px;
+}
+.imagen {
+    width: 250px;
+    height: 200px;
+    margin: 10px 175px 10px 175px;
+    padding: 0px;
+}
+.text-area {
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    margin: 15px  50px 5px 50px;
+    border-color: black;
+    border-radius: 10px;
+}
+.text-area:hover {
+    box-shadow: 0 8px 16px 0 black;
+}
+/* Botones */
+button {
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 19px;
+    text-align: center;
+}
+.button1 {
+    margin: 10px 0px 10px 20px;
+    background-color: white;
+    border-color: palevioletred;
+    color: palevioletred;
+    transition: 1s all;
+    cursor: pointer;
+}
+.button1:hover {
+    background: palevioletred;
+    color: white;
+    transform: scale(1.1);
+}
+.button2 {
+    background-color: white;
+    border-color:  black;
+    color: black;
+    transition: 1s all;
+    cursor: pointer;
+}
+.button2:hover {
+    background: black;
+    color: white;
+    transform: scale(1.1);
+}
+.button3 {
+    position: static;
+    border-radius: 24px;
+    background-color: palevioletred;
+    border-color: palevioletred;
+    color: white;
+    margin: 10px 30px 10px 150px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.button3:hover {
+    background: white;
+    color: palevioletred;
+    transform: scale(1.1);
+}
+/* Se utiliza solo para la parte de JavaScript */
+.fadeOut {
+    opacity: 0;
+    transition: 0.5s;
+}
